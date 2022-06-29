@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+
+    background-color: white;
+    width: 100%;
+    padding: 30px 0;
+}
+
+header ul {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    list-style: none;
+}
+
+header ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+section {
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+    font-weight: 800;
+}
+
+.one {
+    background-color: rgb(255, 202, 202);
+    color: red;
+}
+
+.two {
+    background-color: rgb(219, 219, 255);
+    color: blue;
+}
+
+.three {
+    background-color: rgb(255, 238, 206);
+    color: orange;
+}
+
+.four {
+    background-color: rgb(212, 255, 212);
+    color: green;
+}
+
+.five {
+    background-color: rgb(255, 214, 255);
+    color: purple;
+}
